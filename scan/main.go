@@ -16,5 +16,5 @@ func main() {
 	fmt.Println("Queres saber cuantos metros son tus yardas?")
 	fmt.Scan(&respuesta)
 	resp := respuesta
-	fmt.Println(resp, "no te calienta)
+	fmt.Println(resp, " no te calienta)
 }
