@@ -5,10 +5,19 @@ import (
 )
 
 func main() {
-	sexo := map[int]bool{
-		1: true,
-		2: false,
+	sexo := map[int]string{
+		1: "Hombre",
+		2: "Mujer",
 	}
 
-	fmt.Println(sexo)
+	var se int
+	fmt.Println("Que sexo sos?")
+	fmt.Scan(&se)
+
+	if se == 1 {
+		fmt.Println(sexo[1])
+
+	} else {
+		fmt.Println(sexo[2])
+	}
 }
